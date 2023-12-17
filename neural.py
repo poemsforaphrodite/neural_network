@@ -14,17 +14,7 @@ def mse_loss(y_true, y_pred):
   return ((y_true - y_pred) ** 2).mean()
 
 class OurNeuralNetwork:
-  '''
-  A neural network with:
-    - 2 inputs
-    - a hidden layer with 2 neurons (h1, h2)
-    - an output layer with 1 neuron (o1)
 
-  *** DISCLAIMER ***:
-  The code below is intended to be simple and educational, NOT optimal.
-  Real neural net code looks nothing like this. DO NOT use this code.
-  Instead, read/run it to understand how this specific network works.
-  '''
   def __init__(self):
     # Weights
     self.w1 = np.random.normal()
